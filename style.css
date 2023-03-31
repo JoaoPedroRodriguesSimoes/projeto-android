@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(143, 216, 179);
+    background-image: linear-gradient(to bottom, rgb(143, 216, 179) , rgb(84, 175, 130) 50%, rgb(41, 134, 88)99% );
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(143, 216, 179), rgb(76, 170, 123), rgb(40, 134, 87), rgb(25, 77, 51));
+    padding-bottom: 4px;
+    margin: 0px;    
+    border: 5px double black;
+    border-radius: 10px 35px;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+}
+
+h1{
+    color: green;
+    font-family: 'idroid';
+
+    font-size: 22px;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.5)
+    
+}
+
+h1#curiosidades{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: green;
+    font-family: 'idroid';
+    font-size: 19px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    color: white;
+    background-color: rgb(57, 170, 114);
+    border-radius: 5px 5px 0px 0px;
+    margin: 10px 15px 0px 15px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    padding: 3px;
+}
+
+p{
+    text-align: justify;
+    padding-bottom: 10px;
+    font-weight: lighter;;
+}
+
+p#extra{
+    text-align: justify;
+    background-color: rgb(143, 216, 179);
+    margin: 0px 15px 0px 15px;
+    padding: 3px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+p#extra2{
+    text-align: justify;
+    background-color: rgb(143, 216, 179);
+    margin: 0px 15px 0px 15px;
+    padding: 3px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+p#extra3{
+    text-align: justify;
+    background-color: rgb(143, 216, 179);
+    margin: 0px 15px 15px 15px;
+    padding: 3px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+ul#lista{
+    padding: 3px;
+    margin: 0px 15px 0px 15px;
+    background-color: rgb(143, 216, 179);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+padding: 5px 0px;
+}
+
+p#desc{
+    text-align: center;
+}
+
+nav{
+    margin-left: 25px;
+}
+
+nav > a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none
+}
+
+nav > a:hover{
+    
+}
+
+main{
+    background-color: white;
+    margin: 30px 150px auto 150px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
+}
+
+.img{
+    text-align: center;
+}
+
+div#vid{
+    text-align: center;
+}
+
+p > a{
+    color: rgb(15, 82, 15);
+}
+
+footer{
+    text-align: right;
+}
+
